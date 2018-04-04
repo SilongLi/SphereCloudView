@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99A2C7B7207375F700F58FF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A2C7B6207375F700F58FF6 /* AppDelegate.swift */; };
+		99A2C7B9207375F700F58FF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A2C7B8207375F700F58FF6 /* ViewController.swift */; };
+		99A2C7BC207375F700F58FF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A2C7BA207375F700F58FF6 /* Main.storyboard */; };
+		99A2C7BE207375F700F58FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A2C7BD207375F700F58FF6 /* Assets.xcassets */; };
+		99A2C7C1207375F700F58FF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A2C7BF207375F700F58FF6 /* LaunchScreen.storyboard */; };
+		99A2C7CC2073766500F58FF6 /* SphereCloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A2C7CB2073766500F58FF6 /* SphereCloudViewController.swift */; };
+		99A2C7CE2073768200F58FF6 /* SphereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A2C7CD2073768200F58FF6 /* SphereView.swift */; };
+		99A2C7D1207477AB00F58FF6 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A2C7D0207477AB00F58FF6 /* Matrix.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99A2C7B3207375F700F58FF6 /* SphereGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SphereGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A2C7B6207375F700F58FF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99A2C7B8207375F700F58FF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99A2C7BB207375F700F58FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99A2C7BD207375F700F58FF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99A2C7C0207375F700F58FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99A2C7C2207375F700F58FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A2C7CB2073766500F58FF6 /* SphereCloudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereCloudViewController.swift; sourceTree = "<group>"; };
+		99A2C7CD2073768200F58FF6 /* SphereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereView.swift; sourceTree = "<group>"; };
+		99A2C7D0207477AB00F58FF6 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99A2C7B0207375F700F58FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99A2C7AA207375F700F58FF6 = {
+			isa = PBXGroup;
+			children = (
+				99A2C7B5207375F700F58FF6 /* SphereGame */,
+				99A2C7B4207375F700F58FF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99A2C7B4207375F700F58FF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99A2C7B3207375F700F58FF6 /* SphereGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99A2C7B5207375F700F58FF6 /* SphereGame */ = {
+			isa = PBXGroup;
+			children = (
+				99A2C7C8207375FE00F58FF6 /* Class */,
+				99A2C7B6207375F700F58FF6 /* AppDelegate.swift */,
+				99A2C7B8207375F700F58FF6 /* ViewController.swift */,
+				99A2C7BA207375F700F58FF6 /* Main.storyboard */,
+				99A2C7BD207375F700F58FF6 /* Assets.xcassets */,
+				99A2C7BF207375F700F58FF6 /* LaunchScreen.storyboard */,
+				99A2C7C2207375F700F58FF6 /* Info.plist */,
+			);
+			path = SphereGame;
+			sourceTree = "<group>";
+		};
+		99A2C7C8207375FE00F58FF6 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				99A2C7C92073760600F58FF6 /* ViewController */,
+				99A2C7CA2073762400F58FF6 /* View */,
+				99A2C7CF2074779200F58FF6 /* Others */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		99A2C7C92073760600F58FF6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99A2C7CB2073766500F58FF6 /* SphereCloudViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		99A2C7CA2073762400F58FF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99A2C7CD2073768200F58FF6 /* SphereView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99A2C7CF2074779200F58FF6 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				99A2C7D0207477AB00F58FF6 /* Matrix.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99A2C7B2207375F700F58FF6 /* SphereGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A2C7C5207375F700F58FF6 /* Build configuration list for PBXNativeTarget "SphereGame" */;
+			buildPhases = (
+				99A2C7AF207375F700F58FF6 /* Sources */,
+				99A2C7B0207375F700F58FF6 /* Frameworks */,
+				99A2C7B1207375F700F58FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SphereGame;
+			productName = SphereGame;
+			productReference = 99A2C7B3207375F700F58FF6 /* SphereGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99A2C7AB207375F700F58FF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lisilong;
+				TargetAttributes = {
+					99A2C7B2207375F700F58FF6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 99A2C7AE207375F700F58FF6 /* Build configuration list for PBXProject "SphereGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99A2C7AA207375F700F58FF6;
+			productRefGroup = 99A2C7B4207375F700F58FF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99A2C7B2207375F700F58FF6 /* SphereGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99A2C7B1207375F700F58FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A2C7C1207375F700F58FF6 /* LaunchScreen.storyboard in Resources */,
+				99A2C7BE207375F700F58FF6 /* Assets.xcassets in Resources */,
+				99A2C7BC207375F700F58FF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99A2C7AF207375F700F58FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A2C7CC2073766500F58FF6 /* SphereCloudViewController.swift in Sources */,
+				99A2C7D1207477AB00F58FF6 /* Matrix.swift in Sources */,
+				99A2C7CE2073768200F58FF6 /* SphereView.swift in Sources */,
+				99A2C7B9207375F700F58FF6 /* ViewController.swift in Sources */,
+				99A2C7B7207375F700F58FF6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99A2C7BA207375F700F58FF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99A2C7BB207375F700F58FF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99A2C7BF207375F700F58FF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99A2C7C0207375F700F58FF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99A2C7C3207375F700F58FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99A2C7C4207375F700F58FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99A2C7C6207375F700F58FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y32T66G3J;
+				INFOPLIST_FILE = SphereGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LongDream.app.SphereGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99A2C7C7207375F700F58FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y32T66G3J;
+				INFOPLIST_FILE = SphereGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LongDream.app.SphereGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99A2C7AE207375F700F58FF6 /* Build configuration list for PBXProject "SphereGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A2C7C3207375F700F58FF6 /* Debug */,
+				99A2C7C4207375F700F58FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A2C7C5207375F700F58FF6 /* Build configuration list for PBXNativeTarget "SphereGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A2C7C6207375F700F58FF6 /* Debug */,
+				99A2C7C7207375F700F58FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99A2C7AB207375F700F58FF6 /* Project object */;
+}
