@@ -34,7 +34,7 @@ class SphereCloudViewController: UIViewController {
     // MARK: - setupDataSource
     func setupDataSource() {
         var subviews = [UIButton]()
-        for i in 0..<100 {
+        for i in 0..<50 {
             let btn = UIButton.init(type: .custom)
             let title = i % 2 == 0 ? "🐲" : "🐯"
             btn.setTitle(title, for: .normal)

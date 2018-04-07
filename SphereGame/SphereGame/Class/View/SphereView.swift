@@ -145,7 +145,7 @@ class SphereView: UIView {
             return
         }
         for (i, _) in subViews.enumerated() {
-            self.updateSubviewsFrame(index: i, direction: point, angle: 0.002)
+            updateSubviewsFrame(index: i, direction: point, angle: 0.002)
         }
     }
     
