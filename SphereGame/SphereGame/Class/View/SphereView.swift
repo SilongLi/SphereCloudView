@@ -151,12 +151,12 @@ class SphereView: UIView {
     
     // MARK: - UIPanGestureRecognizer
     @objc private func handlePanGesture(gesture: UIPanGestureRecognizer) {
-        if gesture.state == UIGestureRecognizerState.began {
+        if gesture.state == UIGestureRecognizer.State.began {
             last = gesture.location(in: self)
             stopAniamtion()
             inertiaStop()
             
-        } else if gesture.state == UIGestureRecognizerState.changed {
+        } else if gesture.state == UIGestureRecognizer.State.changed {
             let current = gesture.location(in: self)
             let direction = SpherePoint((last?.y ?? 0.0) - current.y, current.x - (last?.x ?? 0.0), 0)
             let distance = sqrt(direction.x * direction.x + direction.y * direction.y)
@@ -170,7 +170,7 @@ class SphereView: UIView {
             normalPoint = direction
             last = current
             
-        } else if gesture.state == UIGestureRecognizerState.ended {
+        } else if gesture.state == UIGestureRecognizer.State.ended {
             let velocityP = gesture.velocity(in: self)
             velocity = sqrt(velocityP.x * velocityP.x + velocityP.y * velocityP.y)
             inertiaStart()
